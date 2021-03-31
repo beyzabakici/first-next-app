@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <main>
-        <h1>
+        <h1 className="text-purple-500 bg-yellow-100">
           Read{' '}
           <Link href="/posts/first-post">
             <a>this page!</a>
